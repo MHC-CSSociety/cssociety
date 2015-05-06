@@ -1,0 +1,242 @@
+@font-face
+{
+    font-family: Campton-Bold;
+    src: url(../fonts/campton/Campton-BoldDEMO.otf);
+}
+@font-face
+{
+    font-family: Campton-reg;
+    src: url(../fonts/campton/Campton-LightDEMO.otf);
+}
+@font-face
+{
+    font-family: Source-reg;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+h1, h2, h3, h4, h5, h6, th, b, strong
+{   font-family: Campton-Bold !important;   }
+body, p, html
+{   font-family: Source-reg !important; }
+
+.table-wrapper
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td.sched-left
+{   width: 45%; }
+#table-supplies td, th, #table-supplies
+{   border: none !important;    }
+#table-supplies th
+{   text-align: center; text-transform: uppercase;}
+@media (max-width: 685px)
+{
+    #table-supplies-wrapper {   width: 100% !important;}
+    #table-supplies td, #table-supplies th { width: 100px !important; }
+    #table-supplies td {font-size: .7em;}
+    #table-supplies th {font-size: .8em;}
+}
+.table a
+{
+    color: #fff;
+    transition: all .2s;
+    font-style: italic;
+}
+.inspirtable a{
+    color: #daa520;
+}
+
+.table a:hover
+{
+    text-decoration: none;
+    opacity: .5;
+}
+.allsponsors
+{
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+.onesponsor
+{
+    display: inline-block;
+    min-width: 150px;
+    max-width: 200px;
+    margin: 15px;
+    transition: all .2s;
+}
+.onesponsor:hover
+{
+    opacity: .5;
+}
+@media (max-width: 500px)
+{
+    .onesponsor { margin: 10px; min-width: none; max-width: 100px;}
+    #intel { max-width: 5px !important; }
+    #square { max-width: 2px !important;}
+    #google { min-width: 50px !important; margin-top: 50px;}
+    #sparkboard { max-width: 20px !important; }
+}
+
+#barbara{   max-width: 45vw !important; min-width: 330px;}
+#mlh {   max-width: 45vw !important; min-width: 300px;}
+#intel { max-width: 15vw !important; min-width: 200px;}
+#square {   max-width: 40vw !important; min-width: 300px;}
+#google {   max-width: 300px !important; min-width: 300px;}
+#twitter {   max-width: 33vw !important; min-width: 300px;}
+#sparkboard {   max-width: 33vw !important; min-width: 300px;}
+#fivecollege {   max-width: 25vw !important; min-width: 250px;}
+.img-sponsor-resp
+{   width: 100%;    min-width: 200px;}
+
+#first
+{
+    background-color: #015289;
+    background-image: url(../images/hackholyoke/mtholyoke-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#first img
+{
+    margin-bottom: 5%;   
+}
+
+#first p
+{
+    font-size: 2em;
+    font-family: Campton-Reg !important;
+    margin-top: 10px;
+}
+#first h4
+{
+    font-family: Campton-BOLD !important;
+    font-size: 1.75em;
+    margin: 0px;
+    line-height: auto;
+}
+.first-logo
+{
+    width: 90vw !important;
+    max-width: 100%;
+    margin: 50px auto 0px auto;
+    padding: 0px;
+    transition: all .5s;
+}
+.first-logo:hover
+{
+    opacity: .5;
+}
+@media (max-width: 736px)   {   #first p { font-size: 1.75em; }    }
+@media (max-width: 477px)   {   #first p { font-size: 1em; }    #first h4 { font-size: .75em;} }
+
+#second p, #inspir p
+{
+    font-size: 40px;
+}
+.QA .table {
+    font-size: 1.5em;
+    text-align: center;
+}
+#inspir {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#inspir .table{
+    text-align: center;
+}
+#second h2, #inspir h2
+{
+    margin-top: 3%;
+
+    margin-bottom: 5%;
+    font-size: 60px;
+}
+
+#second, #inspir
+{
+    background-color: #fff;
+    font-size: 20px;
+}
+
+#third
+{ 
+    background-color: #daa520;
+    text-align: center;
+}
+
+#fourth 
+{
+    background-color: #d6083b;
+    text-align: center;
+}
+
+#schedule
+{
+    background-color: ;   
+}
+
+#schedule h2
+{
+    margin-bottom: 5%;
+}
+
+#FAQ
+{
+    background-color: #daa520;
+    color: #374643;
+}
+
+#FAQ h1
+{
+    margin-bottom: 5%;   
+}
+
+#FAQ .QA
+{
+    margin-left: 10%;   
+    margin-right: 10%;
+}
+
+#FAQ p
+{
+    margin: auto;
+}
+
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    color: #374643;
+}
+
+#footer a
+{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#footer a i
+{
+    font-size: 2em !important;
+    color: #daa520;
+    transition: all .5s;
+}
+#footer a i:hover
+{
+    opacity: .5;
+}
+#footer p
+{
+    margin-bottom: 5px;
+}
+.bloops
+{
+    font-size: .9em !important;
+    margin-bottom: 10px;
+}

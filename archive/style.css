@@ -1,0 +1,413 @@
+/*
+ * Divs
+ *
+ * The three main areas of the page are the header, main and footer divs.
+ * The logo and nav are part of ther header div.
+ */
+
+div.col-logo, div.col-intro
+{
+	float: left;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+div.col-logo, div.logo
+{
+	text-align: left;
+	width: 350px;
+	float: left;
+}
+
+div.logo
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+div.col-intro
+{
+	max-width: 600px;
+}
+
+div.header, div.main
+{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+div.header
+{
+	padding: 5px;
+	padding-bottom: 5px;
+	clear: both;
+}
+
+div.nav
+{
+	float: left;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: -50px;
+	padding-left: 50px;
+	margin-left: 0px;
+	max-width: 500px;
+}
+
+div.title
+{
+	padding-bottom: 20px;
+	padding-left: 50px;
+	text-align: right;
+	margin-top: 6px;
+	margin-left: 0px;
+	float: left;
+}
+
+div.main
+{
+	clear: both;
+	padding: 0px;
+}
+
+div.col1, div.col2rev
+{
+	width: 300px;
+	float: left;
+}
+
+div.col2, div.col1rev
+{
+	float: left;
+	padding-left: 100px;
+	max-width: 550px;
+	text-align: left;
+}
+div.footer-wrapper
+{
+	border:0px;
+	clear:both;
+	padding: 0px;
+	padding-top: 50px;
+	margin:0px;
+	color: #F6F;
+	width:100%;
+	background: url("graphics/mouse.gif") left top no-repeat;
+}
+
+div.footer
+{
+	clear: both;
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.footer-text
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 50px;
+	margin-bottom: -40px;
+	font-size:120%;
+	line-height: 150%;
+	margin-left: 250px;
+}
+
+div.footer-col1
+{
+	float: left;
+}
+
+div.footer-col2
+{
+	padding-left: 100px;
+	float: left;
+}
+
+/*
+.contacts, .index, .officers, .shows, .events
+{
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 30px;
+	border-bottom-width: 10px;
+	border-style: solid;
+	text-align: center;
+}
+*/
+
+.index
+{
+	border-color: #009bfe;
+}
+
+/*
+.shows
+{
+	border-color: #14e7e9;
+}
+*/
+
+.officers
+{
+	border-color: #e915f6;
+}
+
+.contacts
+{
+	border-color: #9e51f5;
+}
+
+.events
+{
+	border-color: #32e914;
+}
+
+.contacts-footer, .index-footer, .officers-footer, .shows-footer, .events-footer
+{
+	width:100%;
+	min-height: 400px;
+	background: url("graphics/mouse.gif") left top no-repeat;
+}
+
+.index-footer
+{
+	background-color: #306;
+	border-top: #18a5ff 5px solid;
+}
+
+/*
+.shows-footer
+{
+	background-color: #14e7e9;
+	border-top: #29eaeC 5px solid;
+}
+*/
+
+.officers-footer
+{
+	background-color: #e915f6;
+    border-top: #ed46f7 5px solid;
+}
+
+.contacts-footer
+{
+	background-color: #9e51f5;
+    border-top: #ab69f6 5px solid;
+}
+
+.events-footer
+{
+	background-color: #306;
+	border-top: #59ee41 5px solid;
+}
+/***************************************************************************/
+
+/*
+ * The usual suspects.
+ */
+
+body
+{
+	font-family: Gentium, "Book Antiqua", "Hoefler Text", Helvetica, sans-serif;
+	font-size: 12pt;
+	line-height: 150%;
+	color: #0FF;
+	background-color: #303;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Gentium, "Book Antiqua", "Hoefler Text", Helvetica, sans-serif;
+	letter-spacing: 1pt;
+	color: #F9F;
+	height: auto;
+}
+
+h1
+{
+	letter-spacing: 3pt;
+	line-height: 150%;
+}
+
+h3
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+}
+
+p.subtitle
+{
+	font-size: 175%;
+	font-weight: bold;
+	letter-spacing: 3pt;
+	line-height: 150%;
+}
+
+.highlight
+{
+	font-weight: bold;
+	font-size: 125%;
+}
+
+p.quote, p.quote2, p.entitle
+{
+	line-height: 200%;
+	letter-spacing: 1pt;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	text-align: center;
+	border-style: solid;
+}
+
+p.quote
+{
+	font-size: 130%;
+	border-top-width: 0px;
+	border-bottom-width: 10px;
+}
+
+p.entitle
+{
+	font-size: 180%;
+	border-top-width: 30px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+p.quote2
+{
+	font-size: 130%;
+	border-top-width: 30px;
+	border-bottom-width: 10px;
+}
+
+p.fineprint
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+/*Normal link scheme*/
+a:link, a:active, a:hover, a:visited
+{
+	border: 0px;
+	color: #F6F;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: #3FC;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+/* Link scheme for anchors */
+a.anchor:link, a.anchor: visited, a.anchor:hover, a.anchor: active
+{
+	color: #2b2b2b;
+	text-decoration: none;
+	border: 0px;
+}
+
+
+/* Link scheme for footer */
+a.footer:link, a.footer:visited, a.footer:active
+{
+	color: #ffffff;
+	text-decoration: none;
+	background: none;
+	padding: 0;
+	border-bottom: 1px dotted;
+}
+
+a.footer:hover
+{
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+h1.footer, h2.footer, h3.footer, h4.footer, h5.footer, h6.footer
+{
+	color: white;
+}
+
+h1.footer, h2.footer
+{
+	font-size: 110%;
+	letter-spacing: 0px;
+}
+
+img
+{
+	border: 5px;
+	display: block;
+}
+
+img.officer 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+
+/***************************************************************************/
+
+/*
+ * Navigation bar
+ */
+#navbar 
+{
+	width: 460px;
+	height: 50px;	/*The size of one line of the links*/
+	background: url("graphics/navbar-all.gif");
+	margin: 10px auto;
+	padding: 0;
+	position: relative;
+}
+
+#navbar li 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 403px;
+}
+    
+#navbar li, #navbar a 
+{
+    height: 50px; 	/*The size of one line of the links*/
+    display: block;
+}
+
+#events-nav {left: 0; width: 125px; border:none; border: none; display: block;}
+#officers-nav {
+	left: -357px;
+	width: 175px;
+	border: none;
+}
+/*#shows-nav {left: 295px; width: 134px; border: none;}*/
+#contacts-nav {left: 295px; width: 170px; border: none;}
+
+#events-nav a:hover 
+{background: white url("graphics/navbar-all.gif") 0 -100px no-repeat;
+border: none;}
+
+#officers-nav a:hover 
+{background: white url("graphics/navbar-all.gif") -125px -101px no-repeat;
+border: none;}
+
+/*
+#shows-nav a:hover
+{background: white url("graphics/navbar-all.gif") -295px -101px no-repeat;
+border: none;}
+*/
+
+#contacts-nav a:hover 
+{background: white url("graphics/navbar-all.gif") -295px -101px no-repeat;}

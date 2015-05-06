@@ -1,0 +1,201 @@
+@font-face {
+    font-family: SourceSansPro-SemiBold;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Slab;
+    src: url(../fonts/slab/Trocchi-Bold.otf);
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+body { background-color: #EAECEE; }
+
+a, .navbar-toggle span
+{
+    -webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+    text-decoration: none;
+}
+a:hover, .navbar-toggle:hover span { opacity: .4; text-decoration: none; }
+p { font-family: SourceSansPro; font-size: 1.1em; line-height: 1.5em; text-align: left; }
+p.pcenter { text-align: center; width: 80%; margin-left: auto; margin-right: auto; }
+p b { font-family: SourceSansPro; }
+
+#top, #middle, #bottom, { margin: 0px !important; padding: 0px !important; }
+
+nav { background: none !important; border: 0px !important; box-shadow: 0px !important;}
+#cssoc-top-collapsing ul li a 
+{ 
+    color: #646666; 
+    text-transform: uppercase; 
+    font-family: SourceSansPro-SemiBold; 
+}
+@media (max-width: 767px)
+{
+    #cssoc-top-collapsing ul { padding: 0px !important; text-align: center; }
+    #cssoc-top-collapsing ul li { display: inline-block !important; }
+    #cssoc-top-collapsing ul li a
+    {
+        font-size: .7em;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto !important;
+        float: none;
+        
+        margin: 0px !important;
+        margin: 0px !important;
+    }
+    .navbar-toggle { border: none; box-shadow: none;}
+    .navbar-toggle span { background-color: #6B9ACB !important; }
+    .navbar-collapse { border: none; box-shadow: none; }
+}
+@media (min-width: 768px)
+{
+    .navbar .navbar-nav { display: inline-block; float: none; }
+    .navbar .navbar-collapse { text-align: center; }
+    
+    #cssoc-top-collapsing
+    {
+        height: 25vh;
+        width: 100%;
+        text-align: center !important;
+        display: table;
+    }
+    #cssoc-top-collapsing ul { padding: 0px !important; }
+    #cssoc-top-collapsing ul li a
+    {
+        display: inline-block;
+        font-size: 1.2em;
+        text-align: center;
+
+        margin-left: auto !important; 
+        margin-right: auto !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+}
+
+img.floating-right
+{
+    float: right;
+    width: 100%;
+    width: 200px;
+    min-width: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: SourceSansPro-SemiBold !important;
+    font-size: 3em;
+    color: #6B9ACB;
+}
+.team-everyone
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-1person
+{
+    width: 100%;
+    max-width: 190px;
+    display: inline-table;
+    margin: 1.5vw 5vw 50px 5vw;
+    min-width: 150px;
+}
+.team-1person img
+{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 100%;
+    margin-bottom: 15px;
+    
+    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.team-1person h3
+{
+    font-family: SourceSansPro;
+    font-size: 1.6em;
+}
+.team-1person h4
+{
+    font-family: SourceSansPro;
+    font-size: .9em;
+    text-transform: uppercase;
+    color: #284f86;
+}
+.row { padding-bottom: 50px; }
+
+#programs-side ul
+{
+    list-style: none;
+    padding-left: 0px;
+    font-family: SourceSansPro;
+    line-height: 1.5em;
+}
+#programs-side ul li.outside
+{
+    text-transform: uppercase;
+    font-family: SourceSansPro-SemiBold;
+    font-size: 1.4em;
+    color: #284f86;
+    line-height: 1.5em;
+}
+#programs-side ul.inside
+{
+    margin-bottom: 20px;
+    line-height: 1.3em;
+    list-style: decimal;
+    list-style-position: outside;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+#programs-side ul.inside li
+{
+    padding-left: 5px;
+    color: #6f6f6f;
+    margin-bottom: 7px;
+}
+@media (max-width: 767px) { #programs-top, #programs-links {display: none;} }
+
+.container h2
+{
+    margin-top: 50px;
+    font-family: SourceSansPro-SemiBold;
+    font-size: 2.25em;
+    color: #6B9ACB;
+}
+.sponsorslist
+{
+    margin: 0px 15px 0px 15px;
+}
+.sponsorspage-sponsor
+{
+    width: 25vw;
+    max-width: 200px;
+    margin: 0px auto 0px auto;
+    margin-left: 30px;
+}
+#ncwitseed{
+    width: 20vw !important;
+    max-width: 150px;
+}
