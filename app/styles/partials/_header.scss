@@ -1,0 +1,21 @@
+@media screen and (min-width: 750px) { 
+	/** edits to bootstrap **/
+	ul.nav li.dropdown:hover > ul.dropdown-menu, ul.nav li.dropdown:hover ul.dropdown-menu {
+		display: block !important;  
+	}
+	ul.nav li.dropdown ul.dropdown-menu {
+		//background-color: red;
+		list-style: none;
+	}
+	ul.nav li.dropdown ul.dropdown-menu li {
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+
+.navbar-brand {
+	.navbarlogo {
+		@include universal-transition();
+	}
+}
